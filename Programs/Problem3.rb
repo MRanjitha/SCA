@@ -8,7 +8,7 @@ def binaryConversion(n)
   puts "The binary vale is :"
   myarray.reverse!
  myarray.each { |x| print "#{x} " }
- #================
+ #Find the longest gap
  for i in 0..myarray.length-1
       internalGap = 0
    if myarray[i] == 1
